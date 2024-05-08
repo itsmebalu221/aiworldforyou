@@ -1,12 +1,24 @@
 /*header Start*/
 #mainbody{
     margin: 0;
-    background-color: #1e202a;
+    background-color:hsla(215,22%,38%,1);
+background-image:
+radial-gradient(at 87% 82%, hsla(214,66%,72%,1) 0px, transparent 50%),
+radial-gradient(at 81% 42%, hsla(243,76%,68%,1) 0px, transparent 50%),
+radial-gradient(at 16% 46%, hsla(255,76%,70%,1) 0px, transparent 50%),
+radial-gradient(at 52% 0%, hsla(306,73%,70%,1) 0px, transparent 50%),
+radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
     
 }
 .navcolor{
-    background-color: #2D324F;
-    margin-top: 1.5%;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.31);
+   
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+        margin-top: 1.5%;
 }
 
 .logo{
@@ -18,7 +30,13 @@
 
 .ctoa{
     width: 80%;
-    background-color: #D9D9D9;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.67);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+
     margin: 30px auto 20px auto;
     padding: 20px;
     border-radius: 15px;
@@ -80,44 +98,18 @@
     padding-top: 1%;
     padding-bottom: 1%;
     background-color:#99d6ff;
-    background-image:
-    radial-gradient(at 34% 77%, hsla(71,65%,72%,1) 0px, transparent 50%),
-    radial-gradient(at 66% 84%, hsla(223,73%,65%,1) 0px, transparent 50%),
-    radial-gradient(at 21% 82%, hsla(287,97%,65%,1) 0px, transparent 50%),
-    radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
-    radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
+    background-color:#e999ff;
+background-image:
+radial-gradient(at 71% 9%, hsla(289,98%,76%,1) 0px, transparent 50%),
+radial-gradient(at 51% 63%, hsla(272,73%,60%,1) 0px, transparent 50%),
+radial-gradient(at 68% 12%, hsla(258,96%,79%,1) 0px, transparent 50%),
+radial-gradient(at 64% 6%, hsla(328,61%,65%,1) 0px, transparent 50%),
+radial-gradient(at 46% 7%, hsla(24,87%,66%,1) 0px, transparent 50%); 
     
     animation: meshanimi 2s infinite;
     
 }
 
-@keyframes meshanimi {
-
-    0%{background-image:
-        radial-gradient(at 34% 77%, hsla(71,65%,72%,1) 0px, transparent 50%),
-        radial-gradient(at 66% 84%, hsla(223,73%,65%,1) 0px, transparent 50%),
-        radial-gradient(at 21% 82%, hsla(287,97%,65%,1) 0px, transparent 50%),
-        radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
-        radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
-        }
-        0%{background-image:
-            radial-gradient(at 34% 77%, hsla(71,65%,72%,1) 0px, transparent 50%),
-            radial-gradient(at 66% 84%, hsla(223,73%,65%,1) 0px, transparent 50%),
-            radial-gradient(at 21% 82%, hsla(287,97%,65%,1) 0px, transparent 50%),
-            radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
-            radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
-            }    
-            0%{background-image:
-                radial-gradient(at 34% 77%, hsla(71,65%,72%,1) 0px, transparent 50%),
-                radial-gradient(at 66% 84%, hsla(223,73%,65%,1) 0px, transparent 50%),
-                radial-gradient(at 21% 82%, hsla(287,97%,65%,1) 0px, transparent 50%),
-                radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
-                radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
-                }    
-
-    
-    
-}
 
 
 
@@ -127,7 +119,7 @@
     width: 95%;
     height: auto;
     border-radius: 11px;
-    margin: 0 auto 0 auto;
+    margin: 15px auto 0 auto;
     display: flex;
     flex-direction: row;
     padding: 5px;
@@ -139,7 +131,7 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.8px);
     -webkit-backdrop-filter: blur(7.8px);
-    border: 1px solid rgba(0, 0, 0, 0.12);
+    
     
 
     
@@ -254,7 +246,13 @@
 /*footer*/
 footer{
     padding: 10px;
-    background-color: #2D324F;
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.31);
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    
     margin: 15px 0px 15px 0px;
     text-align: center;
     
@@ -274,12 +272,17 @@ footer{
 }
 
 .footerbox{
-    background-color: #171A2C;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.587);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     width: 90%;
     height: 300px;
     margin: 20px;
     border-radius: 15px;
-    color: #D9D9D9;
+    color: #000000;
     overflow: auto;
     
 }
