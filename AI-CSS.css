@@ -1,11 +1,12 @@
 #mainbody{
     margin: 0;
-    background-image:
-    radial-gradient(at 87% 82%, hsla(214,66%,72%,1) 0px, transparent 50%),
-    radial-gradient(at 81% 42%, hsla(243,76%,68%,1) 0px, transparent 50%),
-    radial-gradient(at 16% 46%, hsla(255,76%,70%,1) 0px, transparent 50%),
-    radial-gradient(at 52% 0%, hsla(306,73%,70%,1) 0px, transparent 50%),
-    radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
+    background-color:hsla(215,22%,38%,1);
+background-image:
+radial-gradient(at 87% 82%, hsla(214,66%,72%,1) 0px, transparent 50%),
+radial-gradient(at 81% 42%, hsla(243,76%,68%,1) 0px, transparent 50%),
+radial-gradient(at 16% 46%, hsla(255,76%,70%,1) 0px, transparent 50%),
+radial-gradient(at 52% 0%, hsla(306,73%,70%,1) 0px, transparent 50%),
+radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
     cursor: url("cursor_copy.png") 13 7, auto !important;
     
 }
