@@ -1,0 +1,16 @@
+AI Home Page Render fully with each and evert details
+
+
+Types of AI Tools
+ 1. Image Generators
+ 2. Text Generators
+ 3. Video Generation and Editing
+ 4. Music and Audio Generation
+ 5. Data Analytics and Visualization
+ 6. Healthcare AI Tools
+ 7. AI for Development and Coding
+ 8. Robotics and Automation
+ 9. AI for Education and Learning
+ 10. Emotion Recognition and Sentiment Analysis
+ 11. Virtual Assistants and Chatbots
+ 12. AI for Finance and Trading
