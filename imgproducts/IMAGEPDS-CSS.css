@@ -1,5 +1,6 @@
 /*header Start*/
 #mainbody{
+    scroll-behavior: smooth;
     margin: 0;
     background-color:hsla(215,22%,38%,1);
 background-image:
