@@ -109,7 +109,7 @@
 
 .heading{
     padding: 0%;
-    margin: 25px;
+    margin: 50px;
     font-family: "Radio Canada Big", sans-serif;
   
 }
@@ -118,8 +118,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding:5px;
-    column:2;
+    padding: 5px;
 }
 
 .stag{
@@ -127,6 +126,26 @@
     background-color: #D9D9D9;
     border-radius: 22px;
     padding: 5px 8px 5px 8px;
+}
+
+@media (max-width:600px) {
+
+    .searchitems{
+        height: 100px;
+        overflow:scroll;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        height:min-content;
+        
+        scrollbar-width: none;
+        margin: 0px 10px;
+
+    }
+
+    .searchitems::-webkit-scrollbar{
+        display: none;
+    }
+    
 }
 
 .search{
@@ -188,18 +207,17 @@
     background-color: #a891fb;
     color: #000000;
 }
-
-.srchbtn:active{
-    
-    transform:scale(98%);
-}
-
 .srchbtn1:hover{
     background-color: #a891fb;
     color: #000000;
 }
 
 .srchbtn1:active{
+    
+    transform:scale(98%);
+}
+
+.srchbtn:active{
     
     transform:scale(98%);
 }
