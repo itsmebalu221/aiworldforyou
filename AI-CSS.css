@@ -119,6 +119,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding:5px;
+    column:2;
 }
 
 .stag{
@@ -189,6 +190,16 @@
 }
 
 .srchbtn:active{
+    
+    transform:scale(98%);
+}
+
+.srchbtn1:hover{
+    background-color: #a891fb;
+    color: #000000;
+}
+
+.srchbtn1:active{
     
     transform:scale(98%);
 }
