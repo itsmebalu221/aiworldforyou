@@ -140,7 +140,8 @@
 
 
 
-.srchbtn{
+.srchbtn1{
+    content: "Search";
     height: fit-content;
     width: 10%;
     background-color: #2D324F;
@@ -151,8 +152,33 @@
     border: none;
     border-radius: 50px;
     transition-duration: 0.3s;
+}
+.srchbtn{
+    content: "Search";
+    height: fit-content;
+    width: 10%;
+    background-color: #2D324F;
+    color: #D9D9D9;
+    box-shadow: 3px 3px 3px #171A2C;
+    padding: 10px 15px;
+    margin: 35px 5px;
+    border: none;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    display: none;
+}
 
-    
+@media (max-width:750px) {
+
+    .srchbtn1{
+        display: none;
+    }
+
+    .srchbtn{
+        display: block;
+    }
+
+
     
 }
 
