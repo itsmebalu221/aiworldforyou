@@ -1,24 +1,21 @@
 #mainbody{
     margin: 0;
-    background-color:hsla(215,22%,38%,1);
-background-image:
-radial-gradient(at 87% 82%, hsla(214,66%,72%,1) 0px, transparent 50%),
-radial-gradient(at 81% 42%, hsla(243,76%,68%,1) 0px, transparent 50%),
-radial-gradient(at 16% 46%, hsla(255,76%,70%,1) 0px, transparent 50%),
-radial-gradient(at 52% 0%, hsla(306,73%,70%,1) 0px, transparent 50%),
-radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
+    background-color:#99fff8;
+    background-image:
+    radial-gradient(at 24% 54%, hsla(35,62%,61%,1) 0px, transparent 50%),
+    radial-gradient(at 96% 0%, hsla(263,98%,71%,1) 0px, transparent 50%),
+    radial-gradient(at 7% 30%, hsla(339,61%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 73% 74%, hsla(174,86%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 47% 22%, hsla(87,96%,73%,1) 0px, transparent 50%);
     cursor: url("cursor_copy.png") 13 7, auto !important;
     
 }
 .navcolor{
     /* From https://css.glass */
-    background: rgba(0, 0, 0, 0.31);
-   
+    background: rgba(51, 51, 51, 0.591);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(0, 0, 0, 0.4);
-        margin-top: 1.5%;
     margin-top: 1.5%;
 }
 
@@ -27,7 +24,7 @@ radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
     
 }
 
-
+/*
 
 .ctoa{
     width: 80%;
@@ -80,6 +77,127 @@ radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
         
     }
 }
+*/
+
+.searchtab{
+    width: 95%;
+    height: fit-content;
+    background-color: #2d324f7b;
+    margin: 25px auto 25px auto;
+    border-radius: 15px;
+    overflow: auto;
+    
+}
+
+.num1k{
+    color: #ffffff;
+    animation: colorfade 10s infinite;
+}
+
+.hend{
+    color: #ffffff;
+    animation: blink  1s infinite;
+}
+
+
+
+@keyframes blink {
+    0% {filter: opacity(100%);}
+    50% {filter: opacity(0%);}
+    100% {filter: opacity(100%);}
+}
+
+.heading{
+    padding: 0%;
+    margin: 50px;
+    font-family: "Radio Canada Big", sans-serif;
+  
+}
+
+.searchitems{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stag{
+    margin: 5px;
+    background-color: #D9D9D9;
+    border-radius: 22px;
+    padding: 5px 8px 5px 8px;
+}
+
+.search{
+    width: 60%;
+    box-shadow: 3px 3px 3px #171A2C;
+    padding: 10px 15px;
+    margin: 35px 5px;
+    border: none;
+    border-radius: 50px;
+    color: #000000;
+    font-weight: 500;    
+}
+
+
+
+.srchbtn{
+    height: fit-content;
+    width: 10%;
+    background-color: #2D324F;
+    color: #D9D9D9;
+    box-shadow: 3px 3px 3px #171A2C;
+    padding: 10px 15px;
+    margin: 35px 5px;
+    border: none;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+
+    
+    
+}
+
+.srchbtn:hover{
+    background-color: #a891fb;
+    color: #000000;
+}
+
+.srchbtn:active{
+    
+    transform:scale(98%);
+}
+
+.space{
+    
+    height:auto;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0px auto 25px auto;
+    background-color: #00000037;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #D9D9D9;
+    flex-direction: column;
+    align-items: center;
+}
+
+#down a{
+    font-size: xx-large;
+    color: #000000;
+    padding: 10px;
+    transition-duration: 0.5s;
+
+    
+
+
+    
+
+}
+
+#down a:hover{
+    color: #a891fb;
+}
+
 
 /*header*/
 .items{
@@ -98,37 +216,9 @@ radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
     radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
     radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
     
-    animation: meshanimi 2s infinite;
-    
 }
 
-@keyframes meshanimi {
 
-    0%{background-image:
-        radial-gradient(at 34% 77%, hsla(71,65%,72%,1) 0px, transparent 50%),
-        radial-gradient(at 66% 84%, hsla(223,73%,65%,1) 0px, transparent 50%),
-        radial-gradient(at 21% 82%, hsla(287,97%,65%,1) 0px, transparent 50%),
-        radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
-        radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
-        }
-        0%{background-image:
-            radial-gradient(at 34% 77%, hsla(71,65%,72%,1) 0px, transparent 50%),
-            radial-gradient(at 66% 84%, hsla(223,73%,65%,1) 0px, transparent 50%),
-            radial-gradient(at 21% 82%, hsla(287,97%,65%,1) 0px, transparent 50%),
-            radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
-            radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
-            }    
-            0%{background-image:
-                radial-gradient(at 34% 77%, hsla(71,65%,72%,1) 0px, transparent 50%),
-                radial-gradient(at 66% 84%, hsla(223,73%,65%,1) 0px, transparent 50%),
-                radial-gradient(at 21% 82%, hsla(287,97%,65%,1) 0px, transparent 50%),
-                radial-gradient(at 6% 49%, hsla(219,71%,67%,1) 0px, transparent 50%),
-                radial-gradient(at 8% 17%, hsla(44,60%,64%,1) 0px, transparent 50%); 
-                }    
-
-    
-    
-}
 
 
 
@@ -322,8 +412,7 @@ radial-gradient(at 41% 75%, hsla(26,68%,65%,1) 0px, transparent 50%);
 footer{
     padding: 10px;
     /* From https://css.glass */
-    background: rgba(0, 0, 0, 0.31);
-    
+    background: rgba(51, 51, 51, 0.591);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -356,8 +445,9 @@ footer{
     height: 300px;
     margin: 20px;
     border-radius: 15px;
-    color: black;
+    color: #100728;
     overflow: auto;
+
     
 }
 
@@ -369,7 +459,7 @@ footer{
 .footerbox p{
     margin: 20px 15px 10px 25px;
     text-align: start;
-
+    font-weight: 600;
 }
 
 .cprts{
