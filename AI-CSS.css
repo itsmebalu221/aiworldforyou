@@ -24,6 +24,15 @@
     
 }
 
+@media (max-width:600px) {
+
+    .logo{
+        margin-left: 0px;
+        
+    }
+    
+}
+
 /*
 
 .ctoa{
